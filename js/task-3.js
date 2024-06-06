@@ -7,7 +7,7 @@ function getElementWidth(content, padding, border) {
     // console.log(paddingWidth);
     // console.log(bordertWidth);
 
-    let totalWidth = contentWidth + paddingWidth + bordertWidth;
+    let totalWidth = contentWidth + paddingWidth * 2 + bordertWidth * 2;
 
     return totalWidth;
 };
